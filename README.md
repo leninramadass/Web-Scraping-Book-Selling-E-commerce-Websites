@@ -25,13 +25,12 @@ This Python project demonstrates web scraping capabilities using BeautifulSoup a
 #### Creates Excel File:
 - The script generates an Excel file named 'Book_list.xlsx' to store the extracted data. This file is another way to present and analyze the collected data.
 #### Handles Pagination:
-- Handles Pagination:** The web scraping logic includes pagination handling to systematically scrape data from multiple pages. The script iterates through each page, extracting book details and storing them in the MySQL database and Excel file. This ensures efficient collection of book data from across the web.
+- Handles Pagination: The web scraping logic includes pagination handling to systematically scrape data from multiple pages. The script iterates through each page, extracting book details and storing them in the MySQL database and Excel file. This ensures efficient collection of book data from across the web.
     - The script identifies and extracts the 'Next' button on each page to determine whether additional pages exist.
     - If a 'Next' button is found, the script proceeds to the next page and continues the scraping process.
     - Pagination is a crucial feature for handling scenarios where book data spans across multiple pages, ensuring a complete and thorough extraction.
 #### Clear and Modular Code Structure for Maintainability:
-- The code is organized in a clear and modular structure, promoting maintainability and ease of understanding. Key components are organized into functions, making it straightforward to comprehend the purpose of each section. This modular design facilitates future updates, improvements.
-
+- The code is organized in a clear and modular structure, promoting maintainability and ease of understanding. Key components are organized into functions, making it straightforward to comprehend the purpose of each section.
 
 
 
