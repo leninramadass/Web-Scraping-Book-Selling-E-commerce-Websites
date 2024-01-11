@@ -7,6 +7,8 @@ This Python project demonstrates web scraping capabilities using BeautifulSoup a
 ## Tech Stack
 
 - Python 3.x
+- MySQL
+- Excel
 - BeautifulSoup
 - requests
 - mysql-connector
